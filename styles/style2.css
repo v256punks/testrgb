@@ -19,18 +19,62 @@ font-weight: 300;
 font-style: regular;
 font-display: swap;
 }
+@font-face {
+    font-family: 'Kanit-Black';
+    src: url('../fonts/Kanit-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: regular;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Oxygen-Regular';
+    src: url('../fonts/Oxygen-Regular.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
+    @font-face {
+    font-family: 'Amiko-Regular';
+    src: url('../fonts/Amiko-Regular.ttf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    }
 
 
-#bodyy {
-    background-image: url('/images/BG2.jpg');
-    background-position: 0px 0px;
-    background-size: contain;
-    background-repeat: repeat;
-    background-attachment: fixed;
+body { margin: 0;
+}
+#header {
+    background-color: #347aff;
+
+}
+#block1, #bodyy{
+    background-color: #347aff;
+}
+#traits{
+    background-color: #ff006e;
+}
+#gallery{
+    background-color: #0a5f73;
+}
+#roadmap{
+    background-color: #ff006e;
+}
+#team{
+    background-color: #8338ec;
+}
+#contact{
+    background-color: #8338ec;
 }
 
 .montserrat {
     font-family: Montserrat-Light, sans-serif;
+}
+.AmikoRegular {
+    font-family: Amiko-Regular, sans-serif;
+}
+.OxygenRegular {
+    font-family: Oxygen-Regulart, sans-serif;
 }
 .Poppitandfinch {
     font-family: Poppitandfinch, sans-serif;
@@ -39,11 +83,35 @@ font-display: swap;
 .Poppitandfinchsans {
     font-family: Poppitandfinchsans, sans-serif;
 }
+.Kanit-Black {
+    font-family: Kanit-Black, sans-serif;
+}
 
 .text-blau {
-    color: #13c5eb;
+    color: #94FF00;
 }
 
 .bg-blau {
     background-color: #13c5eb;
+}
+.logo {
+    font-size: 50px;
+    margin-left: 40px;
+    font-style: bold;
+    background-image: -webkit-linear-gradient(left, black 25%, #FF0000 37.5%, #00ff00, #0000ff 62.5%, black 75%);
+    background-image: linear-gradient(90deg, black 25%, #FF0000 37.5%, #00ff00, #0000ff 62.5%, black 75%);
+    background-position: right center;
+    background-size: 400% auto;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: white;
+    -webkit-text-fill-color: transparent;
+    text-fill-color: transparent;
+    transition: color 200ms linear
+}
+      
+.logo:hover {
+    background-position: left center;
+    color: #00ff00;
+    transition: background-position 2000ms ease-out;
 }

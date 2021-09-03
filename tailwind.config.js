@@ -5,13 +5,5 @@ module.exports = {
   theme: {
     extend: {},
   },
-  variants: {
-    extend: {
-      backgroundImage: theme => ({
-        'banana': "url('/images/BG2.jpg')",
-       })
-
-    },
-  },
   plugins: [],
 }

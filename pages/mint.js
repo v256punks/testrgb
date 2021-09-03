@@ -108,7 +108,7 @@ export default function Mint() {
 
 
   return (
-    <div id="bodyy" className="flex flex-col items-center justify-center min-h-screen py-2">
+    <div id="bodyy" className="flex flex-col flex-wrap items-center justify-center min-h-screen">
       <Head>
         <title>Boring Bananas Company</title>
         <link rel="icon" href="/images/favicon.png" />
@@ -131,18 +131,18 @@ bananas out known to man." key="twdesc" />
       </Head>
 
 
-      <div >
-          <div className="flex items-center justify-between w-full border-b-2	pb-6">
-            <a href="/" className=""><img src="images/Hola.gif" width="108" alt="" className="logo-image" /></a>
-            <nav className="flex flex-wrap flex-row justify-around Poppitandfinchsans">
-              <a href="/#about" className="text-4xl text-white hover:text-black m-6">About</a>
-              <a href="/mint" className="text-4xl text-white hover:text-black m-6">Mint!</a>
-              <a href="/#traits" className="text-4xl text-white hover:text-black m-6">Banana traits</a>
-              <a href="/#roadmap" className="text-4xl text-white hover:text-black m-6">Roadmap</a>
-              <a href="/#team" className="text-4xl text-white hover:text-black m-6">Team</a>
-              <a href="/#contact" className="text-4xl text-white hover:text-black m-6">Contact</a>
-              <a href="https://twitter.com/boringbananasco" className="text-4xl  hover:text-white m-6 text-blau">TWITTER</a>
-              <a href="https://discord.gg/8Wk9Hp6UyV" className="text-4xl  hover:text-white m-6 text-blau">DISCORD</a>
+      <div className="">
+        <div className="flex items-center justify-between w-screen Kanit-Black bg-red-400">
+            <a href="/" class="logo" className="">RGB PUNKS</a>
+            <nav className="flex flex-wrap flex-row justify-around Kanit-Black">
+              <a href="#about"  className="text-4xl text-black hover:text-yellow-600 m-6">Info</a>
+              <a href="/mint" className="text-4xl text-black hover:text-yellow-600 m-6">Mint</a>
+              <a href="#traits" className="text-4xl text-black hover:text-yellow-600 m-6">Traits</a>
+              <a href="#gallery" className="text-4xl text-black hover:text-yellow-600 m-6">Sneak Peek</a>
+              <a href="https://twitter.com/rgbpunks " className="m-6" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
+              <a href="https://discord.gg/62BznErEx5" className="m-6" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a>
+              <a href="/" className="m-6" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
+              <a href="/" className="m-6" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
             </nav>
              
           </div>
