@@ -134,7 +134,7 @@ export default function Home() {
               <a href="#about"  className="text-4xl text-black hover:text-yellow-600 m-6">Info</a>
               <a href="#traits" className="text-4xl text-black hover:text-yellow-600 m-6">Traits</a>
               <a href="#gallery" className="text-4xl text-black hover:text-yellow-600 m-6">Sneak Peek</a>
-              <a href="/mint" className="text-4xl text-black hover:text-yellow-600 m-6">FAQ</a>
+              <a href="#faq" className="text-4xl text-black hover:text-yellow-600 m-6">FAQ</a>
 
               <a href="https://twitter.com/rgbpunks " className="m-6" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
               <a href="https://discord.gg/62BznErEx5" className="m-6" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a>
@@ -168,10 +168,10 @@ Concerned about parties trying to suppress our research, the team has opted to s
             </div>
             <div className="flex flex-col items-center">
 
-                <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none my-4 ">TOTAL BANANAS MINTED:  <span className="text-blau text-6xl"> {!signedIn ?  <>-</>  :  <>{totalSupply}</> } / 11111</span></span>
+                <span className="flex AmikoRegular text-3xl text-white items-center bg-grey-lighter rounded rounded-r-none my-4 ">TOTAL BANANAS MINTED:  <span className="text-blau text-4xl"> {!signedIn ?  <>-</>  :  <>{totalSupply}</> } / 11111</span></span>
 
                 <div id="mint" className="flex justify-around  mt-8 mx-6">
-                  <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">GIMME</span>
+                  <span className="flex AmikoRegular text-3xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">GIMME</span>
                   
                   <input 
                                       type="number" 
@@ -180,15 +180,15 @@ Concerned about parties trying to suppress our research, the team has opted to s
                                       value={how_many_rgbpunks}
                                       onChange={ e => set_how_many_rgbpunks(e.target.value) }
                                       name="" 
-                                      className="Poppitandfinchsans pl-4 text-4xl  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold"
+                                      className="AmikoRegular pl-4 text-2xl  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold"
                                   />
                   
-                  <span className="flex Poppitandfinchsans text-5xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">BANANAS!</span>
+                  <span className="flex AmikoRegular text-3xl text-white items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">BANANAS!</span>
     
                 </div>
                 {saleStarted ? 
-                <button onClick={() => mintPunks(how_many_rgbpunks)} className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">MINT {how_many_rgbpunks} bananas for {(tokenPrice * how_many_rgbpunks) / (10 ** 18)} ETH + GAS</button>        
-                  : <button className="mt-4 Poppitandfinchsans text-4xl border-6 bg-blau  text-white hover:text-black p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
+                <button onClick={() => mintPunks(how_many_rgbpunks)} className="mt-4 AmikoRegular text-2xl border-6 bg-blau  text-white hover:text-black p-2 ">MINT {how_many_rgbpunks} bananas for {(tokenPrice * how_many_rgbpunks) / (10 ** 18)} ETH + GAS</button>        
+                  : <button className="mt-4 AmikoRegular text-2xl border-6 bg-blau  text-white hover:text-black p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
             
               }
               <div className="flex  my-2 font-bold  justify-end  ">
@@ -237,6 +237,7 @@ Concerned about parties trying to suppress our research, the team has opted to s
                   </div>
                 </div>
                 <div>
+     <div id="faq">             
       <section class="text-gray-700">
         <div class="container px-5 py-24 mx-auto">
           <div class="text-center mb-20">
@@ -322,6 +323,7 @@ Concerned about parties trying to suppress our research, the team has opted to s
           </div>
         </div>
       </section>
+      </div>
     </div>
 
             
