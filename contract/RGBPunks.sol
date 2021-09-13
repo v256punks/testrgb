@@ -1267,9 +1267,9 @@ pragma solidity ^0.8.0;
 contract RGBPunks is ERC721, ERC721Enumerable, Ownable {
 
     string public PROVENANCE;
-    uint256 public constant tokenPrice = 30000000000000000; // 0.03 ETH
-    uint public constant maxTokenPurchase = 30;
-    uint256 public MAX_TOKENS = 11111;
+    uint256 public constant tokenPrice = 35000000000000000; // 0.035 ETH
+    uint public constant maxTokenPurchase = 10;
+    uint256 public MAX_TOKENS = 10000;
     bool public saleIsActive = false;
 
     string private _baseURIextended;
