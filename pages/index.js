@@ -115,15 +115,15 @@ export default function Home() {
         <meta property="og:description" content=" !!!!!!!!" key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
         <meta property="og:url" content="https://rgbpunks.io/" key="ogurl"/>
-        <meta property="og:image" content="https://boringbananas.co/images/Hola.gif" key="ogimage"/>
+        <meta property="og:image" content="https://rgbpunks.io/images/Hola.gif" key="ogimage"/>
         <meta property="og:site_name" content="https://rgbpunks.io/" key="ogsitename" />
 
         <meta name="twitter:card" content="summary_large_image" key="twcard"/>
-        <meta property="twitter:domain" content="boringbananas.co" key="twdomain" />
-        <meta property="twitter:url" content="https://boringbananas.co/" key="twurl" />
+        <meta property="twitter:domain" content="https://rgbpunks.io" key="twdomain" />
+        <meta property="twitter:url" content="https://rgbpunks.io/" key="twurl" />
         <meta name="twitter:title" content="RGB Punks" key="twtitle" />
         <meta name="twitter:description" content="!!!!!!" key="twdesc" />
-        <meta name="twitter:image" content="https://boringbananas.co/images/Hola.gif" key="twimage" />
+        <meta name="twitter:image" content="https://rgbpunks.io/images/Hola.gif" key="twimage" />
       </Head>
 
 
@@ -159,9 +159,9 @@ ABOUT RARITY
 Following the recent worldwide pandemic, emerging reports suggest that several banana species have begun exhibiting strange characteristics. Our research team located across the globe has commenced efforts to study and document these unusual phenomena.
 
 Concerned about parties trying to suppress our research, the team has opted to store our findings on the blockchain to prevent interference. Although this is a costly endeavour, our mission has never been cleare</p>
-                    <p className="text-2xl AmikoRegular">LAUNCH DATE: 15 September 2021</p>
-                    <p className="text-2xl AmikoRegular">TOTAL SUPPLY: 11,111</p>
-                    <p className="text-2xl AmikoRegular">PRICE: 0.033 ETH</p>
+                    <p className="text-2xl AmikoRegular">LAUNCH DATE: Sep 18th 8PM UTC </p>
+                    <p className="text-2xl AmikoRegular">TOTAL SUPPLY: 10k</p>
+                    <p className="text-2xl AmikoRegular">PRICE: 0.035 ETH</p>
 
                   </div>
                   
