@@ -109,6 +109,12 @@ body { margin: 0;
     text-fill-color: transparent;
     transition: color 200ms linear
 }
+
+@media(max-width: 640px){
+	.logo {
+		margin: 0px auto!important;
+	}
+}
       
 .logo:hover {
     background-position: left center;
