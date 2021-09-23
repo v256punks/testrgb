@@ -158,15 +158,15 @@ export default function Home() {
             
 					</div>
 				</div>
-				<div className="flex flex-col lg:w-1/2 items-center p-10 space-y-7 shadow-2xl">
+				<div className="flex flex-col lg:w-1/2 items-center p-10 space-y-7  md:shadow-2xl">
             <span className="flex Kanit-Black text-4xl text-black items-center   my-4 mt-20">MINTED:&nbsp;<span className=" text-4xl"> {!signedIn ?  <>-</>  :  <>{totalSupply}</> } / 10000</span></span>
             <div className="flex justify-around  mt-8 mx-6">
-              <span className="flex Kanit-Black text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">I want to mint</span>
+              <span className="flex Kanit-Black text-xl md:text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">I want to mint</span>
 
               <input type="number" min="1" max="20" value={how_many_rgbpunks} onChange={ e => set_how_many_rgbpunks(e.target.value) } name=""
-                    className="Kanit-Black pl-4 text-2xl  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold"/>
+                    className="Kanit-Black pl-4 text-xl md:text-2xl inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold"/>
                     
-              <span className="flex Kanit-Black text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">RGB Punk(s)!</span>
+              <span className="flex Kanit-Black text-xl md:text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">RGB Punk(s)!</span>
             </div>
             <span className="flex Kanit-Black text-black items-center -mt-16">max 20 per transaction</span>
             
