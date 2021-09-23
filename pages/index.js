@@ -110,7 +110,7 @@ export default function Home() {
 <html>
 	<head>
 		<title>RGB Punks</title>
-		<link rel="icon" href="/images/favicon.svg"/>
+		<link rel="icon" href="/images/favicon.ico"/>
 
 		<meta property="og:title" content="RGB Punks" key="ogtitle" />
 		<meta property="og:description" content=" !!!!!!!!" key="ogdesc" />
