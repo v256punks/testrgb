@@ -1266,9 +1266,8 @@ pragma solidity ^0.8.0;
 
 contract RGBPunks is ERC721, ERC721Enumerable, Ownable {
 
-    string public PROVENANCE;
-    uint256 public constant tokenPrice = 35000000000000000; // 0.035 ETH
-    uint public constant maxTokenPurchase = 10;
+    uint256 public constant tokenPrice = 30000000000000000; // 0.03 ETH
+    uint public constant maxTokenPurchase = 20;
     uint256 public MAX_TOKENS = 10000;
     bool public saleIsActive = false;
 
@@ -1293,15 +1292,11 @@ contract RGBPunks is ERC721, ERC721Enumerable, Ownable {
         return _baseURIextended;
     }
 
-    function setProvenance(string memory provenance) public onlyOwner {
-        PROVENANCE = provenance;
-    }
-
     function reserveTokens() public onlyOwner {
         uint supply = totalSupply();
-        require(supply < 200, "More than 200 tokens have already been reserved or minted.");
+        require(supply < 50, "More than 50 tokens have already been reserved or minted.");
         uint i;
-        for (i = 0; i < 100; i++) {
+        for (i = 0; i < 50; i++) {
             _safeMint(msg.sender, supply + i);
         }
     }

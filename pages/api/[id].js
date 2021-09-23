@@ -6,7 +6,7 @@ import traits from "../../database/finaltraits_rgb.json";
 
 const infuraAddress = INFURA_ADDRESS 
 
-const bananaApi = async(req, res) => {
+const  rgbApi = async(req, res) => {
 
     // SOME WEB3 STUFF TO CONNECT TO SMART CONTRACT
   const provider = new Web3.providers.HttpProvider(infuraAddress)
@@ -125,7 +125,7 @@ const bananaApi = async(req, res) => {
     res.json(metadata)
   } else {
     res.statuscode = 404
-    res.json({error: "The banana you requested is out of range"})
+    res.json({error: "These RGB Punk have not been minted."})
 
   }
 
@@ -135,4 +135,4 @@ const bananaApi = async(req, res) => {
   
 }
 
-export default bananaApi
+export default rgbApi

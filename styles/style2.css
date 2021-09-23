@@ -42,6 +42,13 @@ font-display: swap;
     font-style: normal;
     font-display: swap;
     }
+    @font-face {
+        font-family: 'Amiko-Bold';
+        src: url('../fonts/Amiko-Bold.ttf') format('opentype');
+        font-weight: 700;
+        font-style: normal;
+        font-display: swap;
+        }
 
 
 body { margin: 0;
@@ -54,19 +61,19 @@ body { margin: 0;
     background-color: #347aff;
 }
 #traits{
-    background-color: #ff006e;
+    background-color: #ffbe0b;
 }
 #gallery{
     background-color: #0a5f73;
 }
-#roadmap{
-    background-color: #ff006e;
+#faq{
+    background-color: #8338ec;
 }
 #team{
     background-color: #8338ec;
 }
 #contact{
-    background-color: #8338ec;
+    background-color: #ff006e;
 }
 
 .montserrat {
@@ -74,6 +81,9 @@ body { margin: 0;
 }
 .AmikoRegular {
     font-family: Amiko-Regular, sans-serif;
+}
+.AmikoBold {
+    font-family: Amiko-Bold, sans-serif;
 }
 .OxygenRegular {
     font-family: Oxygen-Regulart, sans-serif;
@@ -96,7 +106,7 @@ body { margin: 0;
 .bg-blau {
     background-color: #13c5eb;
 }
-.logo {
+.rgb {
     font-size: 50px;
     margin-left: 40px;
     font-style: bold;
@@ -118,7 +128,7 @@ body { margin: 0;
 	}
 }
       
-.logo:hover {
+.rgb:hover {
     background-position: left center;
     color: #00ff00;
     transition: background-position 2000ms ease-out;
