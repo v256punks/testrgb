@@ -109,6 +109,7 @@ export default function Home() {
 		
 <html>
 	<head>
+		<title>RGB Punks</title>
     
 		<meta property="og:title" content="RGB Punks" key="ogtitle" />
 		<meta property="og:description" content="Most colorful punks for your PFP" key="ogdesc" />
