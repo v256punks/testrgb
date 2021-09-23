@@ -115,14 +115,14 @@ export default function Home() {
 		<meta property="og:description" content="Most colorful punks for your PFP" key="ogdesc" />
 		<meta property="og:type" content="website" key="ogtype" />
 		<meta property="og:url" content="https://rgbpunks.io/" key="ogurl"/>
-		<meta property="og:image" content="https://rgbpunks.io/images/600х400.jpg" key="ogimage"/>
+		<meta property="og:image" content="https://rgbpunks.io/images/600x400.jpg" key="ogimage"/>
 		<meta property="og:site_name" content="https://rgbpunks.io/" key="ogsitename" />
 		<meta name="twitter:card" content="summary_large_image" key="twcard"/>
 		<meta property="twitter:domain" content="https://rgbpunks.io" key="twdomain" />
 		<meta property="twitter:url" content="https://rgbpunks.io/" key="twurl" />
 		<meta name="twitter:title" content="RGB Punks" key="twtitle" />
 		<meta name="twitter:description" content="Most colorful punks for your PFP" key="twdesc" />
-		<meta name="twitter:image" content="https://rgbpunks.io/images/600х400.jpg" key="twimage" />
+		<meta name="twitter:image" content="https://rgbpunks.io/images/600x400.jpg" key="twimage" />
 	</head>
 	<body id="bodyy" className="flex flex-col flex-wrap items-center justify-center min-h-screen ">
 	
