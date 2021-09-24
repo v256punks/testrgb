@@ -1294,7 +1294,7 @@ contract RGBPunks is ERC721, ERC721Enumerable, Ownable {
 
     function reserveTokens() public onlyOwner {
         uint supply = totalSupply();
-        require(supply < 50, "More than 50 tokens have already been reserved or minted.");
+        require(supply < 50, "More than 50 RGB Punks have already been reserved or minted.");
         uint i;
         for (i = 0; i < 50; i++) {
             _safeMint(msg.sender, supply + i);
@@ -1306,9 +1306,9 @@ contract RGBPunks is ERC721, ERC721Enumerable, Ownable {
     }
 
     function mintToken(uint numberOfTokens) public payable {
-        require(saleIsActive, "Sale must be active to mint Tokens");
+        require(saleIsActive, "Sale must be active to mint RGB Punks");
         require(numberOfTokens <= maxTokenPurchase, "Exceeded max token purchase");
-        require(totalSupply() + numberOfTokens <= MAX_TOKENS, "Purchase would exceed max supply of tokens");
+        require(totalSupply() + numberOfTokens <= MAX_TOKENS, "Purchase would exceed max supply of RGB Punks");
         require(tokenPrice * numberOfTokens <= msg.value, "Ether value sent is not correct");
 
         for(uint i = 0; i < numberOfTokens; i++) {
