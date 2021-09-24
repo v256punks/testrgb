@@ -121345,16 +121345,14 @@
     {
         "tokenId": 9805,
         "name": "RGB Punk #9805",
-        "Gender": "Female",
-        "Style Feature 1": "Messy Hair",
-        "Style Feature 2": "Lipstick",
-        "Style Feature 3": "Earring",
+        "Gender": "Male",
+        "Style Feature 1": "Massy hair",
+        "Style Feature 2": "Mustache",
         "Eyes": "Normal",
-        "Skin color": "(230, 78, 138)",
-        "Hair color": "(234, 2, 11)",
-        "Earring color": "(117, 197, 119)",
-        "Lipstick color": "(35, 243, 9)",
-        "imageIPFS": "Qmdt3NqhcmhhdJd1YXsQQgH7zsBnT9iLoYYn8bEeHiNJoU"
+        "Skin color": "(179, 138, 7)",
+        "Hair color": "(54, 92, 187)",
+        "Mustache color": "(40, 126, 11)",
+        "imageIPFS": "QmdPzywyskEtgkBzoZDGs2HbYZtSzZbQVejhxh3jJ2dja5"
     },
     {
         "tokenId": 9806,
@@ -121605,12 +121603,15 @@
     {
         "tokenId": 9826,
         "name": "RGB Punk #9826",
-        "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
+        "Gender": "Female",
+        "Style Feature 1": "Pigtails",
+        "Style Feature 2": "Eye Patch",
+        "Style Feature 3": "Lipstick",
         "Eyes": "Normal",
-        "Skin color": "(65, 249, 88)",
-        "Hair color": "(141, 23, 238)",
-        "imageIPFS": "Qma3sFdyLXpqRaRrz6rMjDDdHmJc3AQpELYWEsjTgH7D5U"
+        "Skin color": "(35, 180, 186)",
+        "Hair color": "(36, 175, 234)",
+        "Lipstick color": "(71, 210, 124)",
+        "imageIPFS": "QmeQqoTSed9o9e9m9NtzASgCBLpMHmWEqGpidLEJr1e1L7"
     },
     {
         "tokenId": 9827,
@@ -121899,15 +121900,15 @@
     {
         "tokenId": 9851,
         "name": "RGB Punk #9851",
-        "Gender": "Female",
-        "Style Feature 1": "Straight Hair",
-        "Style Feature 2": "Lipstick",
-        "Style Feature 3": "Big Shades",
-        "Shades color": "(55, 45, 253)",
-        "Skin color": "(18, 144, 142)",
-        "Hair color": "(37, 151, 189)",
-        "Lipstick color": "(65, 230, 135)",
-        "imageIPFS": "QmNwiTksnuqjShTdeXvx7Zoc8P3iXCn63JXv7ZKYrf4a2K"
+        "Gender": "Male",
+        "Style Feature 1": "Headband",
+        "Style Feature 2": "Chinstrap Beard",
+        "Eyes": "Red",
+        "Skin color": "(226, 82, 7)",
+        "Headdress color 1": "(217, 51, 167)",
+        "Headdress color 2": "(142, 153, 172)",
+        "Beard color": "(69, 197, 133)",
+        "imageIPFS": "QmUH2zfiDHRKDfAeyyckpaorYqNEBVyrW5dVpFs9cYic3c"
     },
     {
         "tokenId": 9852,
@@ -122728,13 +122729,14 @@
         "tokenId": 9918,
         "name": "RGB Punk #9918",
         "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Green",
-        "Skin color": "(22, 16, 123)",
-        "Hair color": "(244, 182, 49)",
-        "Beard color": "(133, 212, 189)",
-        "imageIPFS": "QmTUtjVxvbJE853hD4DugELRCBzr5MyskoJhRSdL8ECpmd"
+        "Style Feature 1": "Do-rag",
+        "Style Feature 2": "Regular Shades",
+        "Style Feature 3": "Luxurious Beard",
+        "Skin color": "(106, 56, 123)",
+        "Headdress color": "(167, 101, 149)",
+        "Shades color": "(242, 158, 123)",
+        "Beard color": "(56, 251, 167)",
+        "imageIPFS": "Qmb4FeAdz4QMBR8HwLGsdhvSQcF6JHzABimzbyofhXC1mA"
     },
     {
         "tokenId": 9919,
@@ -123499,11 +123501,11 @@
         "Gender": "Male",
         "Style Feature 1": "Messy Hair",
         "Style Feature 2": "Big Beard",
-        "Eyes": "Red",
-        "Skin color": "(147, 208, 145)",
-        "Hair color": "(225, 11, 95)",
-        "Beard color": "(82, 148, 109)",
-        "imageIPFS": "QmbPU5jKHaP5pgQWXokTs4go2vTdfkLvdtMa5tMtvbAN2N"
+        "Eyes": "Normal",
+        "Skin color": "(188, 253, 4)",
+        "Hair color": "(63, 8, 194)",
+        "Beard color": "(145, 14, 188)",
+        "imageIPFS": "QmQ7uh4G7jqv82UmfstYZ242uXMe5RpnK7zkrQM3piVb6h"
     },
     {
         "tokenId": 9981,

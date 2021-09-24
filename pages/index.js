@@ -42,7 +42,7 @@ export default function Home() {
     window.ethereum.enable()
       .then(function (accounts) {
         window.web3.eth.net.getNetworkType()
-        // checks if connected network is mainnet (change this to rinkeby if you wanna test on testnet)
+        // checks if connected network is main(change this to rinkeby if you wanna test on testnet)
         .then((network) => {console.log(network);if(network != "main"){alert("You are on " + network+ " network. Change network to mainnet or you won't be able to do anything here")} });  
         let wallet = accounts[0]
         setWalletAddress(wallet)
@@ -115,7 +115,7 @@ export default function Home() {
 		<meta property="og:description" content="Most colorful punks for your PFP" key="ogdesc" />
 		<meta property="og:type" content="website" key="ogtype" />
 		<meta property="og:url" content="https://rgbpunks.io/" key="ogurl"/>
-		<meta property="og:image" content="https://rgbpunks.io/images/600x400.jpg" key="ogimage"/>
+		<meta property="og:image" content="https://rgbpunks.io/images/600x400.png" key="ogimage"/>
 		<meta property="og:site_name" content="rgbpunks" key="ogsitename" />
 
 		<meta name="twitter:card" content="summary_large_image" key="twcard"/>
@@ -123,7 +123,7 @@ export default function Home() {
 		<meta property="twitter:url" content="https://rgbpunks.io/" key="twurl" />
 		<meta name="twitter:title" content="RGB Punks" key="twtitle" />
 		<meta name="twitter:description" content="Most colorful punks for your PFP" key="twdesc" />
-		<meta name="twitter:image" content="https://rgbpunks.io/images/600x400.jpg" key="twimage" />
+		<meta name="twitter:image" content="https://rgbpunks.io/images/600x400.png" key="twimage" />
 	</head>
 	<body id="bodyy" className="flex flex-col flex-wrap items-center justify-center min-h-screen ">
 	
