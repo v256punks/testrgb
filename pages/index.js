@@ -138,7 +138,7 @@ export default function Home() {
 
 					<a href="https://twitter.com/rgbpunks " className="m-6" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
 					<a href="https://discord.gg/62BznErEx5" className="m-6" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a>
-					<a href="/" className="m-6" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
+					<a href="https://opensea.io/collection/rgb-punks-official" className="m-6" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
 					<a href="https://etherscan.io/address/0xF224D75076633aA9317aBa0f18365ee67676EFD8" className="m-6" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
 				</nav>
 			</div>
@@ -296,7 +296,7 @@ export default function Home() {
 				<div className="flex flex-wrap flex-row justify-around ">
 					<a href="https://twitter.com/rgbpunks " className="m-8" target="_blank"><img src="images/twitter.png" width="35" alt="Official Twitter Page" className="transform hover:scale-110" /></a>
 					<a href="https://discord.gg/62BznErEx5" className="m-8" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a>
-					<a href="/" className="m-8" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
+					<a href="https://opensea.io/collection/rgb-punks-official" className="m-8" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
 					<a href="https://etherscan.io/address/0xF224D75076633aA9317aBa0f18365ee67676EFD8" className="m-8" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
 				</div>
 			</div>
