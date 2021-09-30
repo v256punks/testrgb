@@ -112,7 +112,7 @@ export default function Home() {
 		<title>RGB Punks</title>
     
 		<meta property="og:title" content="RGB Punks"/>
-		<meta property="og:description" content="Most colorful punks for your PFP" key="ogdesc" />
+		<meta property="og:description" content="Most colorful punks for your PFP!" key="ogdesc" />
 		<meta property="og:type" content="website" key="ogtype" />
 		<meta property="og:url" content="https://rgbpunks.io/" key="ogurl"/>
 		<meta property="og:image" content="https://rgbpunks.io/images/600x400.png" key="ogimage"/>
@@ -122,7 +122,7 @@ export default function Home() {
 		<meta property="twitter:domain" content="https://rgbpunks.io" key="twdomain" />
 		<meta property="twitter:url" content="https://rgbpunks.io/" key="twurl" />
 		<meta name="twitter:title" content="RGB Punks" key="twtitle" />
-		<meta name="twitter:description" content="Most colorful punks for your PFP" key="twdesc" />
+		<meta name="twitter:description" content="Most colorful punks for your PFP!" key="twdesc" />
 		<meta name="twitter:image" content="https://rgbpunks.io/images/600x400.png" key="twimage" />
 	</head>
 	<body id="bodyy" className="flex flex-col flex-wrap items-center justify-center min-h-screen ">
@@ -139,8 +139,7 @@ export default function Home() {
 					<a href="https://twitter.com/rgbpunks " className="m-6" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
 					<a href="https://discord.gg/62BznErEx5" className="m-6" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a>
 					<a href="/" className="m-6" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
-					<a href="/" className="m-6" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
-          {/* 0xF224D75076633aA9317aBa0f18365ee67676EFD8 */}
+					<a href="https://etherscan.io/address/0xF224D75076633aA9317aBa0f18365ee67676EFD8" className="m-6" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
 				</nav>
 			</div>
 		</div>
@@ -272,9 +271,9 @@ export default function Home() {
                           <h5 class="mt-10 mb-3 font-semibold text-black">What is the idea?</h5>
                           <p>From a psychological point of view, color is a powerful tool for self-expression. So, the idea is simple: it is a PFPs to express yourself through color in NFT space.</p>
                           <h5 class="mt-10 mb-3 font-semibold text-black">Are RGB Punks minting on their own smart contract?</h5>
-                          <p>Yes. A  <a href="/" target="_blank" class="text-indigo-500 underline">link</a> to the contract will be published on launch day.</p>
+                          <p>Yes. A  <a href="https://etherscan.io/address/0xF224D75076633aA9317aBa0f18365ee67676EFD8" target="_blank" class="text-indigo-500 underline">link</a> to the contract will be published on launch day.</p>
                           <h5 class="mt-10 mb-3 font-semibold text-black">How many RGB Punks are available?</h5>
-                          <p>10k. The first 50 will be reserved by the creator for the giveaways and other.</p>
+                          <p>10k.</p>
                       </div>
                       <div>
                           <h5 class="mt-10 mb-3 font-semibold text-black">What will the minting price be for RGB Punks?</h5>
@@ -293,11 +292,12 @@ export default function Home() {
 			</div>
 			<div id="contact" className="flex flex-wrap justify-around items-center">
 				<h2 className="text-black AmikoRegular  text-center">© Copyright 2021 RGB Punks</h2>
+
 				<div className="flex flex-wrap flex-row justify-around ">
 					<a href="https://twitter.com/rgbpunks " className="m-8" target="_blank"><img src="images/twitter.png" width="35" alt="Official Twitter Page" className="transform hover:scale-110" /></a>
 					<a href="https://discord.gg/62BznErEx5" className="m-8" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a>
 					<a href="/" className="m-8" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
-					<a href="/" className="m-8" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
+					<a href="https://etherscan.io/address/0xF224D75076633aA9317aBa0f18365ee67676EFD8" className="m-8" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
 				</div>
 			</div>
 		</div>
