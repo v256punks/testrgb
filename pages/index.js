@@ -68,8 +68,8 @@ export default function Home() {
     const rgbpunksContract = new window.web3.eth.Contract(ABI, ADDRESS)
     setrgbpunksContract(rgbpunksContract)
 
-    const salebool = await rgbpunksContract.methods.saleIsActive().call() 
-    // console.log("saleisActive" , salebool)
+    const salebool = await rgbpunksContract.methods.saleEnabled().call() 
+    // console.log("saleEnabled" , salebool)
     setsaleEnabled(salebool)
 
     const totalSupply = await rgbpunksContract.methods.totalSupply().call() 
