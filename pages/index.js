@@ -153,7 +153,6 @@ export default function Home() {
             Each has a unique color combination of the elements. They look unusual, funny and cool. RGB punks are a great way to express yourself in the NFT space.</p>
             <p className="text-xl text-black   AmikoRegular">More info in our server:</p>
 						<a href="https://discord.gg/62BznErEx5" target="_blank" class="inline-block px-5 py-3 text-xl Kanit-Black  text-center text-black transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600 ">Join Discord</a>
-            <p className="text-2xl AmikoBold">Launch date: Sep 30th 8PM UTC </p>
 						<p className="text-2xl AmikoBold">Price: 0.03 ETH + gas</p>
             <p className="text-2xl AmikoBold">Total supply: 10k</p>
             
