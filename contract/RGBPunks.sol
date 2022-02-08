@@ -1325,3 +1325,4 @@ contract RGBPunks is ERC721, ERC721Enumerable, Ownable {
     }
 
 }
+
