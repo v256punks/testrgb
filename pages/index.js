@@ -20,7 +20,7 @@ export default function Home() {
 
   const [totalSupply, setTotalSupply] = useState(0)
 
-  const [saleStarted, setSaleStarted] = useState(false)
+  const [saleEnabled, setsaleEnabled] = useState(false)
 
   const [tokenPrice, settokenPrice] = useState(0)
 
@@ -70,7 +70,7 @@ export default function Home() {
 
     const salebool = await rgbpunksContract.methods.saleIsActive().call() 
     // console.log("saleisActive" , salebool)
-    setSaleStarted(salebool)
+    setsaleEnabled(salebool)
 
     const totalSupply = await rgbpunksContract.methods.totalSupply().call() 
     setTotalSupply(totalSupply)
@@ -170,7 +170,7 @@ export default function Home() {
             </div>
             <span className="flex Kanit-Black text-black items-center -mt-16">max 20 per transaction</span>
             
-            {saleStarted ? 
+            {saleEnabled ? 
             <button onClick={() => mintPunks(how_many_rgbpunks)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600  text-black p-2 ">MINT {how_many_rgbpunks} RGB Punk(s) for {(tokenPrice * how_many_rgbpunks) / (10 ** 18)} ETH + gas</button>        
             : <button className="mt-4 Kanit-Black text-xl border-6 text-black transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600 p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
 
