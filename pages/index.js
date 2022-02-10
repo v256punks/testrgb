@@ -204,7 +204,7 @@ export default function Home() {
 
             }
             {saleIsActive ? 
-            <button onClick={() => freeMintPunks(how_many_rgbpunks)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600  text-black p-2 ">MINT {how_many_rgbpunks} RGB Punk(s) for {(freeTokenPrice * how_many_rgbpunks) / (10 ** 18)} ETH + gas</button>        
+            <button onClick={() => freeMintPunks(1)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600  text-black p-2 ">MINT 1 RGB Punk(s) for {(freeTokenPrice * 1) / (10 ** 18)} ETH + gas</button>        
             : <button className="mt-4 Kanit-Black text-xl border-6 text-black transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600 p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
 
             }
