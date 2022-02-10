@@ -24,6 +24,8 @@ export default function Home() {
 
   const [tokenPrice, settokenPrice] = useState(0)
 
+  const [freeTokenPrice, setFreetokenPrice] = useState(0)
+
   useEffect( async() => { 
 
     signIn()
@@ -77,15 +79,16 @@ export default function Home() {
 
     const tokenPrice = await rgbpunksContract.methods.tokenPrice().call() 
     settokenPrice(tokenPrice)
+
+    const freeTokenPrice = await rgbpunksContract.methods.freeTokenPrice().call() 
+    setFreeTokenPrice(tokenPrice)
    
   }
-
   
-  
-  async function mintPunks(how_many_rgbpunks) {
+  async function freeMintPunks(how_many_rgbpunks) {
     if (rgbpunksContract) {
  
-      const price = Number(tokenPrice)  * how_many_rgbpunks 
+      const price = Number(freeTokenPrice)  * how_many_rgbpunks 
 
       const gasAmount = await rgbpunksContract.methods.freeMint(how_many_rgbpunks).estimateGas({from: walletAddress, value: price})
       console.log("estimated gas",gasAmount)
@@ -94,6 +97,29 @@ export default function Home() {
 
       rgbpunksContract.methods
             .freeMint(how_many_rgbpunks)
+            .send({from: walletAddress, value: price, gas: String(gasAmount)})
+            .on('transactionHash', function(hash){
+              console.log("transactionHash", hash)
+            })
+          
+    } else {
+        console.log("Wallet not connected")
+    }
+    
+  }
+  
+  async function mintPunks(how_many_rgbpunks) {
+    if (rgbpunksContract) {
+ 
+      const price = Number(tokenPrice)  * how_many_rgbpunks 
+
+      const gasAmount = await rgbpunksContract.methods.mintTokens(how_many_rgbpunks).estimateGas({from: walletAddress, value: price})
+      console.log("estimated gas",gasAmount)
+
+      console.log({from: walletAddress, value: price})
+
+      rgbpunksContract.methods
+            .mintTokens(how_many_rgbpunks)
             .send({from: walletAddress, value: price, gas: String(gasAmount)})
             .on('transactionHash', function(hash){
               console.log("transactionHash", hash)
@@ -174,6 +200,11 @@ export default function Home() {
             
             {saleIsActive ? 
             <button onClick={() => mintPunks(how_many_rgbpunks)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600  text-black p-2 ">MINT {how_many_rgbpunks} RGB Punk(s) for {(tokenPrice * how_many_rgbpunks) / (10 ** 18)} ETH + gas</button>        
+            : <button className="mt-4 Kanit-Black text-xl border-6 text-black transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600 p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
+
+            }
+            {saleIsActive ? 
+            <button onClick={() => freeMintPunks(how_many_rgbpunks)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600  text-black p-2 ">MINT {how_many_rgbpunks} RGB Punk(s) for {(freeTokenPrice * how_many_rgbpunks) / (10 ** 18)} ETH + gas</button>        
             : <button className="mt-4 Kanit-Black text-xl border-6 text-black transition duration-200 bg-yellow-500 rounded-lg hover:bg-yellow-600 p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>        
 
             }
