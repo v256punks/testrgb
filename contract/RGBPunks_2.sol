@@ -1483,6 +1483,7 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   using Counters for Counters.Counter;
   using SafeMath for uint256;
   uint256 public tokenPrice;
+  uint256 public freeTokenPrice;
   uint256 public MAX_TOKENS;
   bool public saleIsActive;
   uint256 public freeSupply;
@@ -1492,8 +1493,9 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   * @dev Initializes the contract setting the `tokenName` and `symbol` of the RGBPunks2, `cost` of each mint call, and maximum `supply` of the RGBPunks2.
   * Note: `cost` is in wei. 
   */
-  constructor(string memory tokenName, string memory symbol, uint256 cost, uint256 supply) ERC721A(tokenName, symbol) Ownable() {
+  constructor(string memory tokenName, string memory symbol, uint256 cost, uint256 freeCost, uint256 supply) ERC721A(tokenName, symbol) Ownable() {
     tokenPrice = cost;
+    freeTokenPrice = freeCost;
     MAX_TOKENS = supply;
     saleIsActive = false;
     freeSupply = 0;
@@ -1577,6 +1579,13 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   */
   function setCost(uint256 cost) public onlyOwner{
     tokenPrice = cost;
+  }
+   /**
+  * @dev Update the cost to mint a token.
+  * Can only be called by the current owner.
+  */
+  function setFreeCost(uint256 freeCost) public onlyOwner{
+    freeTokenPrice = freeCost;
   }
 
   /**
