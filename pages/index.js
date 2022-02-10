@@ -79,19 +79,21 @@ export default function Home() {
     settokenPrice(tokenPrice)
    
   }
+
+  
   
   async function mintPunks(how_many_rgbpunks) {
     if (rgbpunksContract) {
  
       const price = Number(tokenPrice)  * how_many_rgbpunks 
 
-      const gasAmount = await rgbpunksContract.methods.mintTokens(how_many_rgbpunks).estimateGas({from: walletAddress, value: price})
+      const gasAmount = await rgbpunksContract.methods.freeMint(how_many_rgbpunks).estimateGas({from: walletAddress, value: price})
       console.log("estimated gas",gasAmount)
 
       console.log({from: walletAddress, value: price})
 
       rgbpunksContract.methods
-            .mintTokens(how_many_rgbpunks)
+            .freeMint(how_many_rgbpunks)
             .send({from: walletAddress, value: price, gas: String(gasAmount)})
             .on('transactionHash', function(hash){
               console.log("transactionHash", hash)

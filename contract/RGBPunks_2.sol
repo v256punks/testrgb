@@ -1482,11 +1482,11 @@ pragma solidity ^0.8.7;
 contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   using Counters for Counters.Counter;
   using SafeMath for uint256;
-  uint256 private tokenPrice;
-  uint256 private MAX_TOKENS;
-  bool private saleIsActive;
-  uint256 private freeSupply;
-  uint256 private freeMintLimit;
+  uint256 public tokenPrice;
+  uint256 public MAX_TOKENS;
+  bool public saleIsActive;
+  uint256 public freeSupply;
+  uint256 public freeMintLimit;
   
   /**
   * @dev Initializes the contract setting the `tokenName` and `symbol` of the RGBPunks2, `cost` of each mint call, and maximum `supply` of the RGBPunks2.
