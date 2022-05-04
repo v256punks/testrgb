@@ -1,708 +1,293 @@
 [
     {
         "tokenId": 0,
-        "name": "RGB Punk #0",
-        "Gender": "Male",
-        "Style Feature 1": "Wild hair",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Normal",
-        "Skin color": "(107, 247, 226)",
-        "Hair color": "(45, 87, 73)",
-        "Beard color": "(195, 118, 168)",
-        "imageIPFS": "QmZWe3yGYHRWvCXTwqzJqX45yRU5pTLC4q4Rz4EHkS6aoC"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 1,
-        "name": "RGB Punk #1",
-        "Gender": "Male",
-        "Style Feature 1": "Cowboy hat",
-        "Style Feature 2": "Eye Mask",
-        "Eyes": "Normal",
-        "Skin color": "(147, 44, 157)",
-        "Headdress color": "(74, 210, 137)",
-        "Eye Mask color": "(41, 47, 100)",
-        "imageIPFS": "QmcBEcoSZc8j3L5L7682TiA5SwuSF4Dk1mTqAQNa7zFDbB"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 2,
-        "name": "RGB Punk #2",
-        "Gender": "Female",
-        "Style Feature 1": "Pilot Helmet",
-        "Style Feature 2": "Pilot Shades",
-        "Style Feature 3": "Lipstick",
-        "Eyes": "Normal",
-        "Skin color": "(84, 97, 131)",
-        "Headdress color": "(255, 21, 156)",
-        "Shades color": "(112, 31, 129)",
-        "Lipstick color": "(166, 169, 81)",
-        "imageIPFS": "QmW9nHT9gBPQi2DmSdCs2dLSw6yZhyJWPCG1oDDpKtvkCM"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 3,
-        "name": "RGB Punk #3",
-        "Gender": "Male",
-        "Style Feature 1": "Hoodie",
-        "Style Feature 2": "Regular Shades",
-        "Skin color": "(6, 130, 14)",
-        "Shades color": "(0, 0, 0)",
-        "Hoodie color": "(118, 223, 127)",
-        "imageIPFS": "QmWXycEghVqdLw1qf5fmYWhBbFF336YdiTuLK8fZHbCVft"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 4,
-        "name": "RGB Punk #4",
-        "Gender": "Male",
-        "Style Feature 1": "Hoodie",
-        "Style Feature 2": "Regular Shades",
-        "Skin color": "(240, 242, 230)",
-        "Shades color": "(0, 0, 0)",
-        "Hoodie color": "(252, 169, 226)",
-        "imageIPFS": "QmWbfT3J6geYuVGnP53ASGhKF2iNBu44URWMayc3pSS8se"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 5,
-        "name": "RGB Punk #5",
-        "Gender": "Female",
-        "Style Feature 1": "Side-swept hair",
-        "Style Feature 2": "Lipstick",
-        "Eyes": "Red",
-        "Skin color": "(91, 66, 105)",
-        "Hair color": "(26, 174, 220)",
-        "Lipstick color": "(122, 134, 134)",
-        "imageIPFS": "QmZ6Ery7Qjgu8VL998NtBbW8M6WsnNDGxuXw2pee7VsSrS"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 6,
-        "name": "RGB Punk #6",
-        "Gender": "Male",
-        "Style Feature 1": "Bald",
-        "Style Feature 2": "Normal Beard",
-        "Eyes": "Green",
-        "Skin color": "(233, 38, 146)",
-        "Beard color": "(182, 106, 195)",
-        "imageIPFS": "QmWGmc6QpxFke9GiG1m1jYr7Kct8XJnsLUS82SgbgyQDR5"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 7,
-        "name": "RGB Punk #7",
-        "Gender": "Female",
-        "Style Feature 1": "Frumpy Hair",
-        "Style Feature 2": "Lipstick",
-        "Eyes": "Normal",
-        "Skin color": "(118, 78, 83)",
-        "Hair color": "(40, 187, 63)",
-        "Lipstick color": "(43, 77, 213)",
-        "imageIPFS": "QmRVLwffZJkiaXT6jqsBrrYSdxTAT1ttXkrigUyNuY37GK"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 8,
-        "name": "RGB Punk #8",
-        "Gender": "Female",
-        "Style Feature 1": "Half Shaved",
-        "Style Feature 2": "Regular Shades",
-        "Style Feature 3": "Lipstick",
-        "Skin color": "(43, 86, 220)",
-        "Hair color": "(141, 205, 244)",
-        "Shades color": "(13, 222, 163)",
-        "Lipstick color": "(221, 156, 8)",
-        "imageIPFS": "QmUde2Qd2AAaZjWv4YCMt9KuX1c81ZgaeDBFroo7Ncw77X"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 9,
-        "name": "RGB Punk #9",
-        "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Normal",
-        "Skin color": "(4, 220, 24)",
-        "Hair color": "(168, 213, 167)",
-        "Beard color": "(195, 57, 219)",
-        "imageIPFS": "QmcM8fTYehLmbjz8nLPD1dkyyhUPXMxFQ6Hw5dPtdb7KpR"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 10,
-        "name": "RGB Punk #10",
-        "Gender": "Male",
-        "Style Feature 1": "Headband",
-        "Style Feature 2": "Chinstrap Beard",
-        "Eyes": "Normal",
-        "Skin color": "(100, 213, 11)",
-        "Headdress color 1": "(152, 247, 166)",
-        "Headdress color 2": "(101, 207, 172)",
-        "Beard color": "(202, 62, 165)",
-        "imageIPFS": "QmXEZByP775Y1Vv5nsTHGHkkFCuFESQmuNAM9AHRpVvr6k"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 11,
-        "name": "RGB Punk #11",
-        "Gender": "Male",
-        "Style Feature 1": "Peak Spike",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Blue",
-        "Skin color": "(8, 182, 156)",
-        "Hair color": "(124, 74, 167)",
-        "Beard color": "(138, 252, 198)",
-        "imageIPFS": "QmR4dUpGfSmuwSmUaQAjjseE3m1PbxGdmvzKU4qNfPRSx7"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 12,
-        "name": "RGB Punk #12",
-        "Gender": "Male",
-        "Style Feature 1": "Massy hair",
-        "Style Feature 2": "Mustache",
-        "Eyes": "Blue",
-        "Skin color": "(179, 17, 130)",
-        "Hair color": "(210, 6, 123)",
-        "Mustache color": "(137, 74, 2)",
-        "imageIPFS": "QmVssE2KvQcygLNG2yja64x7Xx2UHaq1A6zwT7QVj121fz"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 13,
-        "name": "RGB Punk #13",
-        "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
-        "Eyes": "Normal",
-        "Skin color": "(124, 223, 248)",
-        "Hair color": "(34, 198, 29)",
-        "imageIPFS": "QmT1ZVF9gED6ixvjosbRb5TLLH4maSuZUzBcS3EqE5xfad"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 14,
-        "name": "RGB Punk #14",
-        "Gender": "Male",
-        "Style Feature 1": "Cap",
-        "Style Feature 2": "Small Shades",
-        "Style Feature 3": "Goat Beard",
-        "Skin color": "(52, 36, 182)",
-        "Shades color": "(185, 157, 140)",
-        "Beard color": "(36, 247, 130)",
-        "Headdress color": "(74, 62, 11)",
-        "imageIPFS": "QmNxLqJoA2UGa3SE7jtXEV8kT3UEVeVtbmywpVRLHPM7ZF"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 15,
-        "name": "RGB Punk #15",
-        "Gender": "Female",
-        "Style Feature 1": "Short Hair",
-        "Style Feature 2": "Lipstick",
-        "Eyes": "Normal",
-        "Skin color": "Rainbow",
-        "Hair color": "(248, 74, 225)",
-        "Lipstick color": "(115, 227, 182)",
-        "imageIPFS": "QmQGaYRU7yEV9VXTSxCr7TjxBFKvE4BkbiYMYE9cfHcEyQ"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 16,
-        "name": "RGB Punk #16",
-        "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
-        "Eyes": "Normal",
-        "Skin color": "(246, 163, 147)",
-        "Hair color": "(187, 57, 91)",
-        "imageIPFS": "QmX5XY2XkE166mvn4TJPwwgVjEJuyX4C9Aat4qTtMZDQLG"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 17,
-        "name": "RGB Punk #17",
-        "Gender": "Male",
-        "Style Feature 1": "Bald",
-        "Style Feature 2": "Normal Beard",
-        "Eyes": "Blue",
-        "Skin color": "(100, 216, 48)",
-        "Beard color": "(171, 147, 106)",
-        "imageIPFS": "QmRntsuHtNUKJgLhG76NsEikftKVkzDQMNBuVDS15Kbf6e"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 18,
-        "name": "RGB Punk #18",
-        "Gender": "Male",
-        "Style Feature 1": "Bald",
-        "Style Feature 2": "Mask",
-        "Eyes": "Normal",
-        "Skin color": "(251, 105, 1)",
-        "Mask color": "(254, 148, 197)",
-        "imageIPFS": "QmfVd6vTKwA4qFTcRRp5rS5aXw3fZcM8rMpxmsAH8P8gHq"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 19,
-        "name": "RGB Punk #19",
-        "Gender": "Male",
-        "Style Feature 1": "Cap",
-        "Style Feature 2": "Small Shades",
-        "Style Feature 3": "Goat Beard",
-        "Skin color": "(162, 251, 91)",
-        "Shades color": "(163, 182, 92)",
-        "Beard color": "(230, 217, 245)",
-        "Headdress color": "(242, 230, 237)",
-        "imageIPFS": "Qmbg4RMwFR9s4SEU6bHtQwUXejxohxxicR1wSdGmamqRs6"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 20,
-        "name": "RGB Punk #20",
-        "Gender": "Male",
-        "Style Feature 1": "Cap",
-        "Style Feature 2": "Small Shades",
-        "Style Feature 3": "Goat Beard",
-        "Skin color": "(240, 111, 30)",
-        "Shades color": "(71, 156, 208)",
-        "Beard color": "(204, 168, 213)",
-        "Headdress color": "(41, 88, 240)",
-        "imageIPFS": "QmeZPoujFPMzcJYzFBPGNgAbh5sQG2FdFp8urJ8bo1VBxn"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 21,
-        "name": "RGB Punk #21",
-        "Gender": "Male",
-        "Style Feature 1": "Mohawk",
-        "Style Feature 2": "Chinstrap Beard",
-        "Eyes": "Blue",
-        "Skin color": "(76, 210, 104)",
-        "Hair color": "(173, 85, 121)",
-        "Beard color": "(244, 213, 172)",
-        "imageIPFS": "QmbPiYEV54bSjkPDpUaDVMJ3JeZ9HrmYA9b39VM4uoZxsW"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 22,
-        "name": "RGB Punk #22",
-        "Gender": "Male",
-        "Style Feature 1": "Disheveled Hair",
-        "Style Feature 2": "Big Shades",
-        "Skin color": "(197, 39, 92)",
-        "Hair color": "(194, 33, 220)",
-        "Shades color": "(48, 154, 17)",
-        "imageIPFS": "QmZNSUdWz8MxLG2SMFj6BM7KJ3iVA33c5SGzrgiBdyA9Lz"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 23,
-        "name": "RGB Punk #23",
-        "Gender": "Female",
-        "Style Feature 1": "Short Hair",
-        "Style Feature 2": "Lipstick",
-        "Eyes": "Normal",
-        "Skin color": "(127, 144, 212)",
-        "Hair color": "(95, 171, 128)",
-        "Lipstick color": "(6, 120, 84)",
-        "imageIPFS": "QmRVDeD6xnxHWdYSNDCrzrU3vV49pM4afnX35g8KbjiQQf"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 24,
-        "name": "RGB Punk #24",
-        "Gender": "Male",
-        "Style Feature 1": "Knitted Cap",
-        "Style Feature 2": "Goat Beard",
-        "Style Feature 3": "Earring",
-        "Eyes": "Normal",
-        "Skin color": "(154, 249, 237)",
-        "Headdress color": "(59, 126, 6)",
-        "Earring color": "(146, 242, 5)",
-        "Beard color": "(127, 89, 229)",
-        "imageIPFS": "QmTKPhevpRv2ohsPrLFvQF9cWaahbgWbmSzEeY9g4uaVVZ"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 25,
-        "name": "RGB Punk #25",
-        "Gender": "Male",
-        "Style Feature 1": "Massy hair",
-        "Style Feature 2": "Mustache",
-        "Eyes": "Normal",
-        "Skin color": "(171, 70, 32)",
-        "Hair color": "(194, 72, 194)",
-        "Mustache color": "(155, 137, 110)",
-        "imageIPFS": "QmPUL7aVzZiJPH9GsfDX6BYiXqewWWuM8wetmdKKuJe8fg"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 26,
-        "name": "RGB Punk #26",
-        "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Red",
-        "Skin color": "(207, 224, 21)",
-        "Hair color": "(63, 90, 174)",
-        "Beard color": "(205, 242, 31)",
-        "imageIPFS": "QmTLHskivsruVXssJHgwW4aajrFCHFCvNayf6X4s9DXqMs"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 27,
-        "name": "RGB Punk #27",
-        "Gender": "Female",
-        "Style Feature 1": "Wild hair",
-        "Style Feature 2": "Lipstick",
-        "Eyes": "Normal",
-        "Skin color": "(70, 74, 248)",
-        "Hair color": "(29, 197, 132)",
-        "Lipstick color": "(208, 114, 48)",
-        "imageIPFS": "QmRWdb2epRjQQ7LGmcREei1E5nNNPcFofm2VGZyzRoHmVE"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 28,
-        "name": "RGB Punk #28",
-        "Gender": "Female",
-        "Style Feature 1": "Tiara",
-        "Style Feature 2": "Lipstick",
-        "Eyes": "Normal",
-        "Skin color": "(102, 192, 35)",
-        "Headdress color": "(41, 58, 89)",
-        "Lipstick color": "(54, 124, 60)",
-        "imageIPFS": "QmTMdj8GdKLUKsLwox8gkUUGXP8GTS5LuQbCQWMWtczYVG"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 29,
-        "name": "RGB Punk #29",
-        "Gender": "Male",
-        "Style Feature 1": "Disheveled Hair",
-        "Style Feature 2": "Luxurious Beard",
-        "Eyes": "Green",
-        "Skin color": "(181, 231, 110)",
-        "Hair color": "(218, 55, 50)",
-        "Beard color": "(167, 94, 36)",
-        "imageIPFS": "QmVuA8oeVK5swWqLdRapjqqo1qNY7kcqCGRZ7ZerWtrYcY"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 30,
-        "name": "RGB Punk #30",
-        "Gender": "Male",
-        "Style Feature 1": "Cowboy Hat",
-        "Style Feature 2": "Mustache",
-        "Style Feature 3": "Earring",
-        "Eyes": "Blue",
-        "Skin color": "(131, 160, 109)",
-        "Headdress color": "(91, 174, 35)",
-        "Earring color": "(205, 7, 64)",
-        "Mustache color": "(71, 2, 83)",
-        "imageIPFS": "QmfX6gJ8ayP3bRAU73UFetzyzqV2N91UtSfN7FHLWjjtpY"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 31,
-        "name": "RGB Punk #31",
-        "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
-        "Eyes": "Normal",
-        "Skin color": "(193, 152, 151)",
-        "Hair color": "(41, 117, 11)",
-        "imageIPFS": "QmVMAXsxsaS8LECP9Vn23qDbN8ZWQnwQZomVqhS3qwJE5T"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 32,
-        "name": "RGB Punk #32",
-        "Gender": "Female",
-        "Style Feature 1": "Straight Hair",
-        "Style Feature 2": "Lipstick",
-        "Style Feature 3": "Big Shades",
-        "Shades color": "(81, 8, 166)",
-        "Skin color": "(157, 86, 143)",
-        "Hair color": "(0, 183, 80)",
-        "Lipstick color": "(217, 169, 52)",
-        "imageIPFS": "QmZrZsHGTcGgfFxY5duRmJc9KDSbgWzy7NRh8EfyknJTmK"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 33,
-        "name": "RGB Punk #33",
-        "Gender": "Male",
-        "Style Feature 1": "Hoodie",
-        "Style Feature 2": "Mustache",
-        "Eyes": "Normal",
-        "Skin color": "(168, 81, 11)",
-        "Mustache color": "(54, 91, 51)",
-        "Hoodie color": "(202, 67, 201)",
-        "imageIPFS": "QmZz3gGJFDaUeQmGHvnjhporfZLSZNiCDWtA3NuLoTRgVa"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 34,
-        "name": "RGB Punk #34",
-        "Gender": "Male",
-        "Style Feature 1": "Cowboy Hat",
-        "Style Feature 2": "Normal Beard",
-        "Eyes": "Normal",
-        "Skin color": "(245, 28, 86)",
-        "Headdress color": "(75, 20, 168)",
-        "Beard color": "(20, 175, 7)",
-        "imageIPFS": "QmdhFVU6Afg6M9Axan6HBzqLjtS51RdmJyuHnwWzK7J7NZ"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 35,
-        "name": "RGB Punk #35",
-        "Gender": "Male",
-        "Style Feature 1": "Top Hat",
-        "Style Feature 2": "Regular Shades",
-        "Style Feature 3": "Earring",
-        "Skin color": "(231, 180, 89)",
-        "Headdress color": "(54, 180, 172)",
-        "Shades color": "(81, 165, 20)",
-        "Earring color": "(96, 221, 64)",
-        "imageIPFS": "QmNUywpw6zQeiCep1W8Xnk4b1MnHZku8XAydeQdTWy3Fgg"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 36,
-        "name": "RGB Punk #36",
-        "Gender": "Male",
-        "Style Feature 1": "Cowboy Hat",
-        "Style Feature 2": "Normal Beard",
-        "Eyes": "Normal",
-        "Skin color": "(167, 47, 161)",
-        "Headdress color": "(247, 180, 13)",
-        "Beard color": "(228, 112, 158)",
-        "imageIPFS": "QmPV1LsJLvp4VUDfEvstuRjdwxg7aj7N6n8EqE7SL2L15L"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 37,
-        "name": "RGB Punk #37",
-        "Gender": "Male",
-        "Style Feature 1": "Cowboy hat",
-        "Style Feature 2": "Eye Mask",
-        "Eyes": "Normal",
-        "Skin color": "(206, 185, 228)",
-        "Headdress color": "(175, 106, 21)",
-        "Eye Mask color": "(156, 182, 55)",
-        "imageIPFS": "QmTR5xpauEzj5hMzk2bZAVQXh8HdmVwToBHaVGz98Hx673"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 38,
-        "name": "RGB Punk #38",
-        "Gender": "Male",
-        "Style Feature 1": "Wild hair",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Normal",
-        "Skin color": "(234, 253, 67)",
-        "Hair color": "(48, 229, 221)",
-        "Beard color": "(14, 37, 213)",
-        "imageIPFS": "QmZ1F7bucMojww6DQReUJx6p5rxKGAwbCwcA8qoCDjxtke"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 39,
-        "name": "RGB Punk #39",
-        "Gender": "Male",
-        "Style Feature 1": "Mohawk",
-        "Style Feature 2": "Chinstrap Beard",
-        "Eyes": "Normal",
-        "Skin color": "(173, 57, 161)",
-        "Hair color": "(41, 220, 23)",
-        "Beard color": "(187, 46, 38)",
-        "imageIPFS": "QmfBvyuZ3PkmyjsjyhkeTENb9gZ5yAewiMTSXxqkzE4SNv"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 40,
-        "name": "RGB Punk #40",
-        "Gender": "Male",
-        "Style Feature 1": "Fedora",
-        "Style Feature 2": "Classic Shades",
-        "Style Feature 3": "Goat Beard",
-        "Skin color": "(204, 206, 1)",
-        "Headdress color": "(195, 33, 57)",
-        "Shades color": "(10, 247, 25)",
-        "Beard Color": "(16, 201, 146)",
-        "imageIPFS": "QmXoyHsA5NbR12kmZttRaYTgBBVFkfz4NBYT9VLZ3FDGz4"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 41,
-        "name": "RGB Punk #41",
-        "Gender": "Male",
-        "Style Feature 1": "Hoodie",
-        "Style Feature 2": "Regular Shades",
-        "Skin color": "(65, 11, 135)",
-        "Shades color": "(0, 0, 0)",
-        "Hoodie color": "(221, 157, 89)",
-        "imageIPFS": "QmScWmnpL8Y4JMhzxZPVrDfgaihGWu1CZge8y1bumHF1KW"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 42,
-        "name": "RGB Punk #42",
-        "Gender": "Male",
-        "Style Feature 1": "Mohawk",
-        "Style Feature 2": "Regular Shades",
-        "Style Feature 3": "Big Beard",
-        "Style Feature 4": "Earring",
-        "Skin color": "(82, 186, 91)",
-        "Hair color": "(175, 197, 39)",
-        "Shades color": "(162, 10, 201)",
-        "Beard color": "(231, 107, 226)",
-        "Earring color": "(72, 48, 165)",
-        "imageIPFS": "QmeJ2KSrjWcSKePDLYmPz2hFUgVFNPUsxmy2bHpEBEcYHv"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 43,
-        "name": "RGB Punk #43",
-        "Gender": "Female",
-        "Style Feature 1": "Messy Hair",
-        "Style Feature 2": "Lipstick",
-        "Style Feature 3": "Pipe",
-        "Eyes": "Blue",
-        "Skin color": "(196, 31, 163)",
-        "Hair color": "(206, 204, 59)",
-        "Earring color": "(101, 199, 149)",
-        "Lipstick color": "(69, 145, 18)",
-        "imageIPFS": "QmRiWUxLyqE29hzLErerbFjQjd7iicaPqzFCisrxWURrtm"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 44,
-        "name": "RGB Punk #44",
-        "Gender": "Male",
-        "Style Feature 1": "Bandana",
-        "Style Feature 2": "Small Shades",
-        "Skin Color": "(82, 47, 9)",
-        "Headdress Color": "(43, 190, 114)",
-        "Shades Color": "(198, 135, 61)",
-        "imageIPFS": "QmPjV334uBKN6Y1KHPtZ5BKLZEVpAPL6C8igjc92BjgGBR"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 45,
-        "name": "RGB Punk #45",
-        "Gender": "Male",
-        "Style Feature 1": "Mohawk",
-        "Style Feature 2": "Chinstrap Beard",
-        "Eyes": "Normal",
-        "Skin color": "(220, 132, 73)",
-        "Hair color": "(246, 18, 190)",
-        "Beard color": "(112, 146, 249)",
-        "imageIPFS": "Qme4PTLmYvxaFyVaq1rxvxRo9N1u7TSFVAoYEWhF2uq1aX"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 46,
-        "name": "RGB Punk #46",
-        "Gender": "Female",
-        "Style Feature 1": "Straight Hair",
-        "Style Feature 2": "Lipstick",
-        "Style Feature 3": "Big Shades",
-        "Shades color": "(28, 208, 73)",
-        "Skin color": "(31, 156, 246)",
-        "Hair color": "(106, 56, 74)",
-        "Lipstick color": "(41, 191, 102)",
-        "imageIPFS": "QmdtgK48PtEE3ussuRc9dnhWQc4Vn9tTWmnKdA8cvViXmp"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 47,
-        "name": "RGB Punk #47",
-        "Gender": "Male",
-        "Style Feature 1": "Cowboy Hat",
-        "Style Feature 2": "Normal Beard",
-        "Eyes": "Normal",
-        "Skin color": "(162, 224, 242)",
-        "Headdress color": "(95, 30, 235)",
-        "Beard color": "(244, 52, 242)",
-        "imageIPFS": "QmaTGBS9nAMaoG4EcC3W8n3f1AcXu2Xpw1pynzYPKwHPia"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 48,
-        "name": "RGB Punk #48",
-        "Gender": "Male",
-        "Style Feature 1": "Frumpy Hair",
-        "Style Feature 3": "Earring",
-        "Eyes": "Normal",
-        "Skin color": "(127, 66, 91)",
-        "Hair color": "(58, 55, 248)",
-        "Earring color": "(66, 190, 61)",
-        "imageIPFS": "QmPyaruoxCicatQV2bjSRaPKf9qkHrajTpG6Y1ji26FKof"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 49,
-        "name": "RGB Punk #49",
-        "Gender": "Male",
-        "Style Feature 1": "Disheveled Hair",
-        "Style Feature 2": "Mustache",
-        "Eyes": "Normal",
-        "Skin color": "(52, 147, 72)",
-        "Hair color": "(109, 140, 34)",
-        "Mustache color": "(13, 206, 249)",
-        "imageIPFS": "QmQEDZTFkK7Xpx48Q88nVqMFQpbyq8CaNbb8hpRiL4fRpm"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 50,
-        "name": "RGB Punk #50",
-        "Gender": "Male",
-        "Style Feature 1": "Vampire Hair",
-        "Style Feature 2": "Small Shades",
-        "Skin color": "(127, 147, 89)",
-        "Hair color": "(99, 232, 170)",
-        "Shades color": "(143, 113, 107)",
-        "imageIPFS": "QmPU74XkPsvTwnii9f7iBq2vCFwWFW1rhkSQPW2j6SWTLH"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 51,
-        "name": "RGB Punk #51",
-        "Gender": "Male",
-        "Style Feature 1": "Peak Spike",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Normal",
-        "Skin color": "(189, 153, 217)",
-        "Hair color": "(198, 15, 18)",
-        "Beard color": "(126, 12, 129)",
-        "imageIPFS": "QmX4t28doKXNXW8yBCBYhFTTYG7tcpYnvv3EnFZwzY8wWm"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 52,
-        "name": "RGB Punk #52",
-        "Gender": "Male",
-        "Style Feature 1": "Hoodie",
-        "Style Feature 2": "Mustache",
-        "Eyes": "Normal",
-        "Skin color": "(183, 83, 194)",
-        "Mustache color": "(82, 29, 38)",
-        "Hoodie color": "(93, 184, 129)",
-        "imageIPFS": "QmTiFaJQH7UihTP9g3sGbdvwXGA3fGKMpk7TVRzBPcQXvH"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 53,
-        "name": "RGB Punk #53",
-        "Gender": "Male",
-        "Style Feature 1": "Messy Hair",
-        "Style Feature 2": "Big Beard",
-        "Eyes": "Green",
-        "Skin color": "(26, 226, 6)",
-        "Hair color": "(65, 9, 136)",
-        "Beard color": "(6, 233, 156)",
-        "imageIPFS": "QmaKBnTQvvMyFQUqbvdsok1dRbHQdguRML1bZF68mQo6xE"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 54,
-        "name": "RGB Punk #54",
-        "Gender": "Male",
-        "Style Feature 1": "Mohawk",
-        "Style Feature 2": "Regular Shades",
-        "Style Feature 3": "Big Beard",
-        "Style Feature 4": "Earring",
-        "Skin color": "(22, 68, 77)",
-        "Hair color": "(120, 249, 154)",
-        "Shades color": "(1, 142, 224)",
-        "Beard color": "(176, 117, 100)",
-        "Earring color": "(84, 228, 190)",
-        "imageIPFS": "QmchQVGJzFimxtRa89ZXKaPuKfAFRNSytVMEEzHjB643q3"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 55,
-        "name": "RGB Punk #55",
-        "Gender": "Male",
-        "Style Feature 1": "Massy hair",
-        "Style Feature 2": "Mustache",
-        "Eyes": "Normal",
-        "Skin color": "(16, 159, 223)",
-        "Hair color": "(235, 123, 32)",
-        "Mustache color": "(249, 16, 9)",
-        "imageIPFS": "QmeKE5MxnxwWptDSPCsuaiMmCFyKygM7k5kKPTyqHLUt8k"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 56,
-        "name": "RGB Punk #56",
-        "Gender": "Male",
-        "Style Feature 1": "Top Hat",
-        "Style Feature 2": "Regular Shades",
-        "Style Feature 3": "Earring",
-        "Skin color": "(179, 197, 183)",
-        "Headdress color": "(152, 39, 242)",
-        "Shades color": "(172, 178, 185)",
-        "Earring color": "(206, 170, 28)",
-        "imageIPFS": "QmcnSs4GefxwoY7uRUoYytqQoiLJriwwD8oCErJLM5NGs6"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 57,
-        "name": "RGB Punk #57",
-        "Gender": "Male",
-        "Style Feature 1": "Massy hair",
-        "Style Feature 2": "Mustache",
-        "Eyes": "Normal",
-        "Skin color": "(247, 186, 2)",
-        "Hair color": "(27, 48, 2)",
-        "Mustache color": "(93, 81, 56)",
-        "imageIPFS": "QmUBFY82GndqJUNGL7J1nnaaChcYqev2QuTuACrnxDzDib"
+        "name": "deleted",
+        "imageIPFS": "QmPWSTd1wa6gCqEzV6LUVHNiEsazRF938e1VjFzWcyMMQv"
     },
     {
         "tokenId": 58,
