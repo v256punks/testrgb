@@ -182,7 +182,7 @@ export default function Home() {
             <div className="flex w-full lg:w-1/3 py-10 items-top">
               <div className="AmikoRegular space-y-4">
               <ul class="list-disc text-2xl text-black p-2   AmikoRegular">
-                <li>4269 BIZARRE PUNKS IN RANDOM COLORS FROM THE RGB RANGE  </li>
+                <li>4269 BIZARRE PUNKS IN RANDOM COLORS FROM THE RGB RANGE</li>
                 <li>THE 69 SPECIAL PUNKS ARE EVENLY DISTRIBUTED AMONG THE TOTAL NUMBER. </li>
                   <li>AFTER THE REVEAL EVERYONE WHO <span class="underline">MINTED</span> A SPECIAL WILL GET 0.256 ETH TO THEIR ACCOUNT</li>
                 </ul>
