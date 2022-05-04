@@ -28,7 +28,7 @@ const  rgbApi = async(req, res) => {
   // IF YOU ARE USING INSTA REVEAL MODEL, UNCOMMENT THIS AND COMMENT THE TWO LINES BELOW
   if(parseInt(query) < totalSupply) {
   
-    let tokenName= `RGB Punk #${query}`
+    let tokenName= `deleted`
 
     const trait = traits[parseInt(query)]
     // const trait = traits[ Math.floor(Math.random() * 8888) ] // for testing on rinkeby 
@@ -41,80 +41,80 @@ const  rgbApi = async(req, res) => {
         "tokenId" : parseInt(query),
         "image": `https://ipfs.io/ipfs/${trait["imageIPFS"]}`,
         "external_url":"https://www.rgbpunks.io",
-        "attributes": [          
-            {
-              "trait_type": "Gender",
-              "value": trait["Gender"]
-            },
-            {
-              "trait_type": "Style Feature",
-              "value": trait["Style Feature 1"]
-            },
-            {
-              "trait_type": "Style Feature",
-              "value": trait["Style Feature 2"]
-            },
-            {
-              "trait_type": "Style Feature",
-              "value": trait["Style Feature 3"]
-            },
-            {
-              "trait_type": "Style Feature",
-              "value": trait["Style Feature 4"]
-            },
-            {
-              "trait_type": "Eyes",
-              "value": trait["Eyes"]
-            },
-            {
-              "trait_type": "Skin color",
-              "value": trait["Skin color"]
-            },
-            {
-              "trait_type": "Hair color",
-              "value": trait["Hair color"]
-            },
-            {
-              "trait_type": "Headdress color",
-              "value": trait["Headdress color"]
-            },
-            {
-              "trait_type": "Shades color",
-              "value": trait["Shades color"]
-            },
+        // "attributes": [          
+        //     {
+        //       "trait_type": "Gender",
+        //       "value": trait["Gender"]
+        //     },
+        //     {
+        //       "trait_type": "Style Feature",
+        //       "value": trait["Style Feature 1"]
+        //     },
+        //     {
+        //       "trait_type": "Style Feature",
+        //       "value": trait["Style Feature 2"]
+        //     },
+        //     {
+        //       "trait_type": "Style Feature",
+        //       "value": trait["Style Feature 3"]
+        //     },
+        //     {
+        //       "trait_type": "Style Feature",
+        //       "value": trait["Style Feature 4"]
+        //     },
+        //     {
+        //       "trait_type": "Eyes",
+        //       "value": trait["Eyes"]
+        //     },
+        //     {
+        //       "trait_type": "Skin color",
+        //       "value": trait["Skin color"]
+        //     },
+        //     {
+        //       "trait_type": "Hair color",
+        //       "value": trait["Hair color"]
+        //     },
+        //     {
+        //       "trait_type": "Headdress color",
+        //       "value": trait["Headdress color"]
+        //     },
+        //     {
+        //       "trait_type": "Shades color",
+        //       "value": trait["Shades color"]
+        //     },
             
-            {
-              "trait_type": "Beard color",
-              "value": trait["Beard color"]
-            },
-            {
-              "trait_type": "Earring color",
-              "value": trait["Earring color"]
-            },
-            {
-              "trait_type": "Lipstick color",
-              "value": trait["Lipstick color"]
-            },
-            {
-              "trait_type": "Mustache color",
-              "value": trait["Mustache color"]
-            },
-            {
-              "trait_type": "Hoodie color",
-              "value": trait["Hoodie color"]
-            },
-            {
-              "trait_type": "Mask color",
-              "value": trait["Mask color"]
-            },
+        //     {
+        //       "trait_type": "Beard color",
+        //       "value": trait["Beard color"]
+        //     },
+        //     {
+        //       "trait_type": "Earring color",
+        //       "value": trait["Earring color"]
+        //     },
+        //     {
+        //       "trait_type": "Lipstick color",
+        //       "value": trait["Lipstick color"]
+        //     },
+        //     {
+        //       "trait_type": "Mustache color",
+        //       "value": trait["Mustache color"]
+        //     },
+        //     {
+        //       "trait_type": "Hoodie color",
+        //       "value": trait["Hoodie color"]
+        //     },
+        //     {
+        //       "trait_type": "Mask color",
+        //       "value": trait["Mask color"]
+        //     },
     
-            {
-              "trait_type": "Eye mask color",
-              "value": trait["Eye mask color"]
-            },
+        //     {
+        //       "trait_type": "Eye mask color",
+        //       "value": trait["Eye mask color"]
+        //     },
     
     
-        ]
+        // ]
       }
       
       // console.log(metadata)
