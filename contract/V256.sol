@@ -1531,7 +1531,7 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   payable
   nonReentrant{
     require(saleIsActive, "Mint disabled");
-    require(count > 0 && count <= 100, "You can drop minimum 1, maximum 100 RGBPunks2s");
+    require(count > 0 && count <= 25, "You can drop minimum 1, maximum 100 RGBPunks2s");
     require(count.add(totalSupply()) <= MAX_TOKENS, "Exceeds max supply");
     require(owner() == msg.sender || msg.value >= tokenPrice.mul(count),
            "Ether value sent is below the price");
@@ -1549,7 +1549,7 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   nonReentrant{
     require(recipients.length>0,"Missing recipient addresses");
     require(owner() == msg.sender || saleIsActive, "Mint disabled");
-    require(recipients.length > 0 && recipients.length <= 100, "You can drop minimum 1, maximum 100 RGBPunks2s");
+    require(recipients.length > 0 && recipients.length <= 25, "You can drop minimum 1, maximum 100 RGBPunks2s");
     require(recipients.length.add(totalSupply()) <= MAX_TOKENS, "Exceeds max supply");
     require(owner() == msg.sender || msg.value >= tokenPrice.mul(recipients.length),
            "Ether value sent is below the price");
