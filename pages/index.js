@@ -28,7 +28,7 @@ export default function Home() {
 
   useEffect(async () => {
 
-    signIn()
+    // signIn()
 
   }, [])
 
@@ -137,33 +137,33 @@ export default function Home() {
 
     <html>
       <head>
-        <title>V256 Punks</title>
+        <title>v256 Phunks</title>
 
-        <meta property="og:title" content="V256 Punks" />
-        <meta property="og:description" content="Most colorful punks for your PFP!" key="ogdesc" />
+        <meta property="og:title" content="v256 Phunks" />
+        <meta property="og:description" content="" key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
-        <meta property="og:url" content="https://rgbpunks.io/" key="ogurl" />
-        <meta property="og:image" content="https://rgbpunks.io/images/600x400.png" key="ogimage" />
-        <meta property="og:site_name" content="V256 Punks" key="ogsitename" />
+        <meta property="og:url" content="https://v256phunks.xyz/" key="ogurl" />
+        <meta property="og:image" content="https://v256phunks.xyz/images/600x400.png" key="ogimage" />
+        <meta property="og:site_name" content="v256 Phunks" key="ogsitename" />
 
         <meta name="twitter:card" content="summary_large_image" key="twcard" />
-        <meta property="twitter:domain" content="https://rgbpunks.io" key="twdomain" />
-        <meta property="twitter:url" content="https://rgbpunks.io/" key="twurl" />
-        <meta name="twitter:title" content="V256 Punks" key="twtitle" />
-        <meta name="twitter:description" content="Most colorful punks for your PFP!" key="twdesc" />
-        <meta name="twitter:image" content="https://rgbpunks.io/images/600x400.png" key="twimage" />
+        <meta property="twitter:domain" content="https://v256phunks.xyz" key="twdomain" />
+        <meta property="twitter:url" content="https://v256phunks.xyz/" key="twurl" />
+        <meta name="twitter:title" content="v256 Phunks" key="twtitle" />
+        <meta name="twitter:description" content="" key="twdesc" />
+        <meta name="twitter:image" content="https://v256phunks.xyz/images/600x400.png" key="twimage" />
       </head>
       <body id="bodyy" className="flex flex-col flex-wrap items-center  min-h-screen ">
 
         <div id="header" className='w-full'>
           <div className="flex flex-wrap items-center justify-center  w-auto Kanit-Black">
-            <a href="/" className="logo rgb text-center sm:text-center w-full sm:w-auto select-none">V256 PUNKS</a>
+            <a href="/" className="logo rgb text-center sm:text-center w-full sm:w-auto select-none">v256 PHUNKS</a>
             
           </div>
           <div className="flex flex-wrap items-center mt-5 justify-center   w-auto Kanit-Black">
             <nav className="flex flex-wrap flex-row space-x-10 ml-10 justify-around Kanit-Black">
-              <a href="https://twitter.com/V256punks " className="" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
-              <a href="https://discord.gg/62BznErEx5" className="" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a>
+              <a href="https://twitter.com/v256phunks " className="" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
+              {/* <a href="https://discord.gg/62BznErEx5" className="" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a> */}
               <a href="#" className="" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
               <a href="#" className="" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
             </nav>
@@ -173,29 +173,27 @@ export default function Home() {
         <div className="w-full" id="about">
  {/* block 1 */}
           <div className="flex flex-row flex-wrap justify-center" id="block1" >
-            <div className="flex flex-col lg:w-1/3 items-center  py-10 space-y-7  ">
-            <img src="images/img1.gif"width="350" class="   drop-shadow-2xl "/>
+            <div className="flex flex-col lg:w-1/2 items-center  py-10 space-y-7  ">
+            <img src="images/img2.gif"width="400" class="   drop-shadow-2xl "/>
+            <div className='flex flex-col items-center justify-center  w-auto'>
+            {!signedIn ? <button onClick={signIn} className="Kanit-Black inline-block  duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  no-underline py-2 px-2 mx-4">Connect Wallet with Metamask</button>
+              :
+              <button onClick={signOut} className="Kanit-Black inline-block transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow no-underline py-2 px-2 mx-4 ">Connected: {walletAddress}</button>}
+            </div>
             </div>
 
 
-  {/* block 2 */}
-            <div className="flex w-full lg:w-1/3 py-10 items-top">
-              <div className="AmikoRegular space-y-4">
-              <ul class="list-disc text-2xl text-black p-2   AmikoRegular">
-                <li><span class="text-cust-yellow">4269</span> BIZARRE PUNKS  IN RANDOM COLORS FROM THE RGB RANGE  </li>
-                <li>THE <span class="text-cust-yellow">69</span> SPECIAL PUNKS ARE EVENLY DISTRIBUTED AMONG THE TOTAL NUMBER. </li>
-                  <li class="font-bold">AFTER THE REVEAL THOSE WHO <span class="underline">MINTED</span> A SPECIAL WILL GET <span class="text-cust-yellow">0.256</span> ETH TO THEIR WALLETS</li>
-                </ul>
-              </div>
-            </div>
+ 
 
-            <div className="flex w-full lg:w-1/3 py-10 items-top">
-              <div className="AmikoRegular space-y-4">
-              <ul class="list-disc text-2xl text-black p-2   AmikoRegular">
-                <li>FIRST <span class="text-cust-yellow">420</span> ARE FREE / 1 PER WALLET</li>
-                <li>REST ARE <span class="text-cust-yellow">0.0142069</span> ETH EACH / MAX 25 PER TX</li>
+            <div className="flex w-full lg:w-1/2 py-10 items-top">
+              <div className="Kanit-Regular space-y-4">
+              <ul class="list-disc text-2xl text-black p-2   Kanit-Regular">
+                <li><span class="text-cust-yellow">6969</span> BIZARRE PHUNKS  IN RANDOM COLORS FROM THE RGB RANGE  </li>
+                <li>FIRST <span class="text-cust-yellow">1420 ARE FREE</span> / 1 PER WALLET</li>
+                <li>REST ARE <span class="text-cust-yellow">0.0069 ETH</span> EACH / MAX 25 PER TX</li>
+                <li>WE USE GAS OPTIMIZED <span class="text-cust-yellow">ERC-721A</span> METHOD</li>
                 <li>REVEAL IS AFTER SOLD OUT OR IN 24 HOURS</li>
-                <li>A LIST OF LUCKY WINNERS AND PROOF TRANSACTIONS IN A FEW HOURS AFTER THE REVEAL</li>
+                
               </ul>
               </div>
             </div>
@@ -207,20 +205,20 @@ export default function Home() {
         <div id="block2" className='w-full'>
           <div className='flex flex-col items-center justify-center  w-auto'>
  
-            <span className="flex Kanit-Black text-4xl text-black">MINTED:&nbsp;<span className=" text-4xl"> {!signedIn ? <>-</> : <>{totalSupply}</>} / 4269</span></span>
+            <span className="flex Kanit-Black text-4xl text-black">MINTED:&nbsp;<span className=" text-4xl"> {!signedIn ? <>-</> : <>{totalSupply}</>} / 6969</span></span>
             <div className="flex justify-around  mt-8 mx-6">
               <span className="flex Kanit-Black text-xl md:text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">Mint</span>
 
               <input type="number" min="1" max="25" value={how_many_rgbpunks} onChange={e => set_how_many_rgbpunks(e.target.value)} name=""
                 className="Kanit-Black pl-4  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold" />
 
-              <span className="flex Kanit-Black text-xl md:text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">V256 Punk(s)</span>
+              <span className="flex Kanit-Black text-xl md:text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">v256 Phunk(s)</span>
             </div>
             <span className="flex Kanit-Black text-black items-center mt-5">max 25 per transaction</span>
           </div>
           <div className="flex flex-row justify-center space-x-10 mb-4">
             {saleIsActive ?
-              <button onClick={() => freeMintPunks(1)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  text-black p-2 ">MINT 1 for FREE + gas</button>
+              <button onClick={() => freeMintPunks(how_many_rgbpunks)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  text-black p-2 ">MINT {how_many_rgbpunks} for FREE + gas</button>
               : <button className="mt-4 Kanit-Black text-xl border-6 text-black transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
 
             }
@@ -231,11 +229,11 @@ export default function Home() {
             }
 
           </div>
-          <div className='flex flex-col items-center justify-center  w-auto'>
+          {/* <div className='flex flex-col items-center justify-center  w-auto'>
             {!signedIn ? <button onClick={signIn} className="Kanit-Black inline-block  duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  no-underline py-2 px-4 mx-4">Connect Wallet with Metamask</button>
               :
               <button onClick={signOut} className="Kanit-Black inline-block transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow no-underline py-2 px-4 mx-4 ">Connected: {walletAddress}</button>}
-            </div>
+            </div> */}
         </div>
       </body>
     </html>

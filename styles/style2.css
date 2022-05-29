@@ -29,6 +29,13 @@ font-display: swap;
     font-display: swap;
 }
 @font-face {
+    font-family: 'Kanit-Regular';
+    src: url('../fonts/Kanit-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: regular;
+    font-display: swap;
+}
+@font-face {
     font-family: 'Oxygen-Regular';
     src: url('../fonts/Oxygen-Regular.ttf') format('opentype');
     font-weight: 400;
