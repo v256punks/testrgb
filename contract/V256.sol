@@ -1474,12 +1474,12 @@ contract ERC721A is Context, ERC165, IERC721, IERC721Metadata, IERC721Enumerable
         uint256 quantity
     ) internal virtual {}
 }
-// File: RGBPunks2.sol
+// File: v256 Punks.sol
 
 
 pragma solidity ^0.8.7;
 
-contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
+contract v256Punks is ERC721A, Ownable, ReentrancyGuard {
   using Counters for Counters.Counter;
   using SafeMath for uint256;
   uint256 public tokenPrice;
@@ -1490,7 +1490,7 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   uint256 public freeMintLimit;
   
   /**
-  * @dev Initializes the contract setting the `tokenName` and `symbol` of the RGBPunks2, `cost` of each mint call, and maximum `supply` of the RGBPunks2.
+  * @dev Initializes the contract setting the `tokenName` and `symbol` of the v256 Punks, `cost` of each mint call, and maximum `supply` of the v256 Punks.
   * Note: `cost` is in wei. 
   */
   constructor(string memory tokenName, string memory symbol, uint256 cost, uint256 freeCost, uint256 supply) ERC721A(tokenName, symbol) Ownable() {
@@ -1498,7 +1498,7 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
     freeTokenPrice = freeCost;
     MAX_TOKENS = supply;
     saleIsActive = false;
-    freeSupply = 0;
+    freeSupply = 1420;
     freeMintLimit = 1;
   }
 
@@ -1531,7 +1531,7 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   payable
   nonReentrant{
     require(saleIsActive, "Mint disabled");
-    require(count > 0 && count <= 25, "You can drop minimum 1, maximum 100 RGBPunks2s");
+    require(count > 0 && count <= 25, "You can drop minimum 1, maximum 25 v256 Phunks");
     require(count.add(totalSupply()) <= MAX_TOKENS, "Exceeds max supply");
     require(owner() == msg.sender || msg.value >= tokenPrice.mul(count),
            "Ether value sent is below the price");
@@ -1549,7 +1549,7 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
   nonReentrant{
     require(recipients.length>0,"Missing recipient addresses");
     require(owner() == msg.sender || saleIsActive, "Mint disabled");
-    require(recipients.length > 0 && recipients.length <= 25, "You can drop minimum 1, maximum 100 RGBPunks2s");
+    require(recipients.length > 0 && recipients.length <= 25, "You can drop minimum 1, maximum 100 v256 Punkss");
     require(recipients.length.add(totalSupply()) <= MAX_TOKENS, "Exceeds max supply");
     require(owner() == msg.sender || msg.value >= tokenPrice.mul(recipients.length),
            "Ether value sent is below the price");
@@ -1651,9 +1651,11 @@ contract RGBPunks2 is ERC721A, Ownable, ReentrancyGuard {
     return freeMintLimit;
   }
   function _baseURI() override internal pure returns (string memory) {
-    return "https://rgbpunks.io/api/";
+    return "https://v256phunks.xyz/api/";
   }
   function contractURI() public pure returns (string memory) {
-    return "https://rgbpunks.io/contractinfo.json";
+    return "https://v256phunks.xyz/contractinfo.json";
   }
 }
+
+6900000000000000
