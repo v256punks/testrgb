@@ -1614,7 +1614,7 @@ contract v256Phunks is ERC721A, Ownable, ReentrancyGuard {
     return (saleIsActive, tokenPrice, MAX_TOKENS, totalSupply(), freeSupply, freeMintLimit);
   }
   function _baseURI() override internal pure returns (string memory) {
-    return "https://rgbpunks.io/api/";
+    return "https://v256phunks.xyz/api/";
   }
   
 }

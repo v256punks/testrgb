@@ -40,7 +40,7 @@ const  rgbApi = async(req, res) => {
         "name": tokenName,
         "tokenId" : parseInt(query),
         "image": `https://ipfs.io/ipfs/${trait["imageIPFS"]}`,
-        "external_url":"https://www.rgbpunks.io",
+        "external_url":"https://v256phunks.xyz/",
         "attributes": [          
             {
               "trait_type": "Gender",
