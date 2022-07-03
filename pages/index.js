@@ -190,7 +190,7 @@ export default function Home() {
               <ul class="list-disc text-2xl text-black p-2  Kanit-Regular leading-10">
                 <li><span class="text-cust-yellow">6969</span> BIZARRE PHUNKS. EACH HAS TRAITS WITH UNIQUE COLOR FROM RGB RANGE</li>
                 <li>FIRST <span class="text-cust-yellow">1420 ARE FREE</span> / 1 PER TX</li>
-                <li>THAN <span class="text-cust-yellow">0.0069 ETH</span> EACH / MAX 25 PER TX</li>
+                <li>THEN <span class="text-cust-yellow">0.0069 ETH</span> EACH / MAX 25 PER TX</li>
                 <li>WE USE GAS OPTIMIZED <span class="text-cust-yellow">ERC-721A</span> METHOD</li>
                 <li><span class="text-cust-yellow">REVEAL</span> IS SHORTLY AFTER SALES START</li>
                 
