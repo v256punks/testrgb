@@ -143,7 +143,7 @@ export default function Home() {
         <meta property="og:description" content="" key="ogdesc" />
         <meta property="og:type" content="website" key="ogtype" />
         <meta property="og:url" content="https://v256phunks.xyz/" key="ogurl" />
-        <meta property="og:image" content="https://v256phunks.xyz/images/600x400.png" key="ogimage" />
+        <meta property="og:image" content="" key="ogimage" />
         <meta property="og:site_name" content="v256 Phunks" key="ogsitename" />
 
         <meta name="twitter:card" content="summary_large_image" key="twcard" />
@@ -151,7 +151,7 @@ export default function Home() {
         <meta property="twitter:url" content="https://v256phunks.xyz/" key="twurl" />
         <meta name="twitter:title" content="v256 Phunks" key="twtitle" />
         <meta name="twitter:description" content="" key="twdesc" />
-        <meta name="twitter:image" content="https://v256phunks.xyz/images/600x400.png" key="twimage" />
+        <meta name="twitter:image" content="" key="twimage" />
       </head>
       <body id="bodyy" className="flex flex-col flex-wrap items-center  min-h-screen ">
 
@@ -165,7 +165,7 @@ export default function Home() {
               <a href="https://twitter.com/v256phunks " className="" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
               {/* <a href="https://discord.gg/62BznErEx5" className="" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a> */}
               <a href="#" className="" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
-              <a href="#" className="" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
+              <a href="https://etherscan.io/address/0x63280c13c90fd24bf74fe116a70e79768bf64238#writeContract" className="" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
             </nav>
           </div>
         </div>
@@ -185,14 +185,14 @@ export default function Home() {
 
  
 
-            <div className="flex w-full lg:w-1/2 py-10 items-top">
-              <div className="Kanit-Regular space-y-4">
-              <ul class="list-disc text-2xl text-black p-2   Kanit-Regular">
-                <li><span class="text-cust-yellow">6969</span> BIZARRE PHUNKS  IN RANDOM COLORS FROM THE RGB RANGE  </li>
-                <li>FIRST <span class="text-cust-yellow">1420 ARE FREE</span> / 1 PER WALLET</li>
-                <li>REST ARE <span class="text-cust-yellow">0.0069 ETH</span> EACH / MAX 25 PER TX</li>
+            <div className="flex w-full lg:w-1/2 py-10 mb-14 items-center">
+              <div className="Kanit-Regular space-y-4 bg-blue-600 drop-shadow-lg">
+              <ul class="list-disc text-2xl text-black p-2  Kanit-Regular leading-10">
+                <li><span class="text-cust-yellow">6969</span> BIZARRE PHUNKS. EACH HAS TRAITS WITH UNIQUE COLOR FROM RGB RANGE</li>
+                <li>FIRST <span class="text-cust-yellow">1420 ARE FREE</span> / 1 PER TX</li>
+                <li>THAN <span class="text-cust-yellow">0.0069 ETH</span> EACH / MAX 25 PER TX</li>
                 <li>WE USE GAS OPTIMIZED <span class="text-cust-yellow">ERC-721A</span> METHOD</li>
-                <li>REVEAL IS AFTER SOLD OUT OR IN 24 HOURS</li>
+                <li><span class="text-cust-yellow">REVEAL</span> IS SHORTLY AFTER SALES START</li>
                 
               </ul>
               </div>
@@ -218,7 +218,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row justify-center space-x-10 mb-4">
             {saleIsActive ?
-              <button onClick={() => freeMintPunks(how_many_rgbpunks)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  text-black p-2 ">MINT {how_many_rgbpunks} for FREE + gas</button>
+              <button onClick={() => freeMintPunks(1)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  text-black p-2 ">MINT {1} for FREE + gas</button>
               : <button className="mt-4 Kanit-Black text-xl border-6 text-black transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
 
             }
