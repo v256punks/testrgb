@@ -190,7 +190,7 @@ export default function Home() {
               <ul class="list-disc text-2xl text-black p-2  Kanit-Regular leading-10">
                 <li><span class="text-cust-yellow">6969</span> BIZARRE PHUNKS. EACH HAS TRAITS WITH UNIQUE COLOR FROM RGB RANGE</li>
                 <li>FIRST <span class="text-cust-yellow">1420 ARE FREE</span> / 1 PER TX</li>
-                <li>THEN <span class="text-cust-yellow">0.0069 ETH</span> EACH / MAX 15 PER TX</li>
+                <li>THEN <span class="text-cust-yellow">0.0069 ETH</span> EACH / MAX 25 PER TX</li>
                 <li>WE USE GAS OPTIMIZED <span class="text-cust-yellow">ERC-721A</span> METHOD</li>
                 <li><span class="text-cust-yellow">REVEAL</span> IS SHORTLY AFTER SALES START</li>
                 
@@ -209,12 +209,12 @@ export default function Home() {
             <div className="flex justify-around  mt-8 mx-6">
               <span className="flex Kanit-Black text-xl md:text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">Mint</span>
 
-              <input type="number" min="1" max="15" value={how_many_rgbpunks} onChange={e => set_how_many_rgbpunks(e.target.value)} name=""
+              <input type="number" min="1" max="25" value={how_many_rgbpunks} onChange={e => set_how_many_rgbpunks(e.target.value)} name=""
                 className="Kanit-Black pl-4  inline bg-grey-lighter  py-2 font-normal rounded text-grey-darkest  font-bold" />
 
               <span className="flex Kanit-Black text-xl md:text-3xl text-black items-center bg-grey-lighter rounded rounded-r-none px-3 font-bold">v256 Phunk(s)</span>
             </div>
-            <span className="flex Kanit-Black text-black items-center mt-5">max 15 per transaction</span>
+            <span className="flex Kanit-Black text-black items-center mt-5">max 25 per transaction</span>
           </div>
           <div className="flex flex-row justify-center space-x-10 mb-4">
             {saleIsActive ?
