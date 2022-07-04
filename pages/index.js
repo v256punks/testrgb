@@ -164,7 +164,7 @@ export default function Home() {
             <nav className="flex flex-wrap flex-row space-x-10 ml-10 justify-around Kanit-Black">
               <a href="https://twitter.com/v256phunks " className="" target="_blank"><img src="images/twitter.png" width="35" alt="" className="transform hover:scale-110" /></a>
               {/* <a href="https://discord.gg/62BznErEx5" className="" target="_blank"><img src="images/discord.svg" width="35" alt="" className="transform hover:scale-110" /></a> */}
-              <a href="#" className="" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
+              <a href="https://opensea.io/collection/v256phunks" className="" target="_blank"><img src="images/opensea.png" width="35" alt="" className="transform hover:scale-110" /></a>
               <a href="https://etherscan.io/address/0x63280c13c90fd24bf74fe116a70e79768bf64238#writeContract" className="" target="_blank"><img src="images/etherscan.png" width="35" alt="" className="transform hover:scale-110" /></a>
             </nav>
           </div>
