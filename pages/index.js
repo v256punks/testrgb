@@ -218,7 +218,7 @@ export default function Home() {
           </div>
           <div className="flex flex-row justify-center space-x-10 mb-4">
             {saleIsActive ?
-              <button onClick={() => freeMintPunks(1)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  text-black p-2 ">MINT {1} for FREE + gas</button>
+              <button onClick={() => freeMintPunks(how_many_rgbpunks)} className="mt-4 Kanit-Black text-3xl border-6 transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow  text-black p-2 ">MINT {1} for FREE + gas</button>
               : <button className="mt-4 Kanit-Black text-xl border-6 text-black transition duration-200 bg-cust-yellow rounded-lg hover:bg-cust-yellow p-2 ">SALE IS NOT ACTIVE OR NO WALLET IS CONNECTED</button>
 
             }
